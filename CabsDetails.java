@@ -26,8 +26,8 @@ public class CabsDetails implements ActionListener{
     public CabsDetails() {
         
         f = new JFrame("CABS DETAILS");
-        // f.setBackground(Color.white);
-        f.setBackground(Color.black);
+        f.setBackground(Color.brown);
+        // f.setBackground(Color.black);
         f.setLayout(null);
         
         id15=new JLabel();
