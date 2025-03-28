@@ -40,6 +40,16 @@ public class signup extends JFrame implements ActionListener {
         t1=new JTextField();
         t1.setBounds(200,150,150,30);
         f.add(t1);
+            
+        i1 = new JLabel("Name : ");
+        i1.setBounds(50,150,100,30);
+        i1.setFont(new Font("serif",Font.BOLD,20));
+        i1.setForeground(Color.black);
+        f.add(i1);
+        
+        t1=new JTextField();
+        t1.setBounds(200,150,150,30);
+        f.add(t1);
         
         i2 = new JLabel("Password : ");
         i2.setBounds(50,200,100,30);
