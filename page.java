@@ -41,6 +41,13 @@ public class page extends JFrame implements ActionListener {
         JMenuItem m1 = new JMenuItem("CABS DETAILS");
         JMenuItem m2 = new JMenuItem("CABS SHARE");
         master.setForeground(Color.blue);
+
+        JMenuBar mb  = new JMenuBar();
+        JMenu master = new JMenu("CABS");
+        JMenuItem m1 = new JMenuItem("CABS DETAILS");
+        JMenuItem m2 = new JMenuItem("CABS SHARE");
+        master.setForeground(Color.blue);
+        
         
         //for cabs 
         m1.setFont(new Font("monospaced",Font.BOLD,16));
