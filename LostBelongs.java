@@ -68,10 +68,16 @@ public class LostBelongs extends JFrame implements ActionListener {
         //b1.addActionListener(this);
         
         getContentPane().setBackground(Color.gray);
-        
+
+        b2 = new JButton("Add lost items");
+        b2.setBackground(Color.gray);
+        b2.setForeground(Color.black);
+        b2.setBounds(300, 250, 150 ,30);
+        add(b2);
         
     }
         public void actionPerformed(ActionEvent ae){
+            
         
         if(ae.getSource() == b2){
             new Entries().f.setVisible(true);
@@ -81,6 +87,7 @@ public class LostBelongs extends JFrame implements ActionListener {
     }
         public static void main (String args[]){
         new LostBelongs().setVisible(true);
+            
         }
    
 }
