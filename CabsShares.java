@@ -36,6 +36,7 @@ public class CabsShares extends JFrame implements ActionListener{
         
         
         id15=new JLabel();
+        id 16 = new JLable();
         id15.setBounds(0,0,900,700);
         id15.setLayout(null);
         ImageIcon img = new ImageIcon(ClassLoader.getSystemResource("friendinneed/icons/car2.jpeg"));
