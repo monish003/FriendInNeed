@@ -7,13 +7,13 @@ def play_video(video_path):
     try:
         logging.info(f'[Step 2] - playing video content of {video_path} to verify hang or video flicker')
         if os.name == 'nt':  # Windows
-            player = r"C:\Program Files\VideoLAN\VLC\vlc.exe"
+            player = "C:\Program Files\VideoLAN\VLC\vlc.exe"
             if os.path.exists(player):
-                 subprocess.Popen([player, video_pathh])
+                 subprocess.Popen([player, video_path])
             else:
                 os.startfile(video_path)  # Default player
         else:  # Unix/Linux/Mac
-             subprocess.Popen(['xdg-open', video_pathh])
+             subprocess.Popen(['xdg-open', video_path])
     except Exception as e:
         logging.error(f'unable to play video: {e}')
 
